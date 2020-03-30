@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongRunningService", "LongRunningService.csproj", "{FB1EB78A-1EBE-466A-9B30-AED5EE5E60B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serverless", "..\Serverless\Serverless.csproj", "{28DAADE1-61EB-4C27-A411-CA39F3C573BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serverless", "..\Serverless\Serverless.csproj", "{28DAADE1-61EB-4C27-A411-CA39F3C573BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService", "..\GrpcService\GrpcService.csproj", "{29BD1590-8225-4A28-A1B3-381314DD2253}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{28DAADE1-61EB-4C27-A411-CA39F3C573BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28DAADE1-61EB-4C27-A411-CA39F3C573BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28DAADE1-61EB-4C27-A411-CA39F3C573BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BD1590-8225-4A28-A1B3-381314DD2253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BD1590-8225-4A28-A1B3-381314DD2253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BD1590-8225-4A28-A1B3-381314DD2253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BD1590-8225-4A28-A1B3-381314DD2253}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
